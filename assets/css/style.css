@@ -1,0 +1,45 @@
+.parvenu_charity_popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 999999999;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+.parvenu_charity_popup-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.parvenu_charity_popup-content {
+    width: 100%;
+    max-width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    min-height: 300px;
+    background: #fff;
+    padding: 20px;
+}
+.parv-h3 {
+    font-weight: 600;
+}
+.parv-quan {
+    display: flex;
+    margin-bottom: 10px;
+}
+.parv-quan input {
+    width: 35% !important;
+    margin-right: 2%;
+}
+span.parv_pop_up_close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+}
